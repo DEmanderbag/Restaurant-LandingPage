@@ -1,0 +1,135 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Montserrat', sans-serif;
+}
+
+li,
+a {
+   font-weight: 500;
+   font-size: 14px;
+   color: #9B9B9B;
+   text-decoration: none;
+}
+
+button {
+   font-weight: 500;
+   font-size: 16px;
+   color: #cfaa8c;
+   background-color: rgba(247, 237, 229, 1);
+   border: none;
+   padding: 11px 23px;
+   cursor: pointer;
+   transition: all 0.3s ease 0s;
+}
+
+button:hover {
+   background-color: rgba(247, 237, 229, 0.8);
+}
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 50%;
+   height: 10%;
+   padding: 50px 5%;
+   text-transform: capitalize;
+}
+
+.logo {
+   cursor: pointer;
+}
+
+.nav-links {
+   list-style: none;
+}
+
+.nav-links li {
+   display: inline-block;
+   padding: 0 40px;
+}
+
+.nav-links li a {
+   transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+   color: #cfaa8c;
+}
+
+.right-side {
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 50%;
+   height: 100vh;
+   background-image: url(images/food.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   clip-path: polygon(27% 0, 100% 0%, 100% 100%, 2% 100%);
+   background-position: right bottom;
+}
+
+.container {
+   height: 83.2vh;
+   padding: 0 5%;
+   width: 60%;
+}
+
+.container h1 {
+   font-size: 42px;
+   padding: 50px 0;
+   line-height: 56px;
+}
+
+.become-one {
+   display: flex;
+   padding-top: 70px;
+}
+
+.line {
+   align-self: center;
+   width: 500px;
+   background-color: rgb(168, 168, 168);
+   height: 1px;
+}
+
+.become-one p {
+   padding-left: 20px;
+   color: rgb(182, 182, 182);
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
+.pick-food{
+   padding-top: 50px;
+   display: flex;
+   height: 300px;
+}
+
+.one,
+.two,
+.three{
+   height: 200px;
+   width: 30%;
+   display: flex;
+   flex-direction: column;
+}
+
+.one img,
+.two img,
+.three img{
+   width: 150px;
+   margin: 0 auto;
+}
+
+.pick-food p{
+   text-align: center;
+   font-weight: 500;
+   color: #9B9B9B;
+   font-size: 12px;
+}
