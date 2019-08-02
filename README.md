@@ -5,4 +5,4 @@ Inspiration from a [dribble shot](https://dribbble.com/shots/3795464-Resturant/a
 
 
 
-![alt text](https://github.com/DEmanderbag/Editorial-Layout/blob/master/editorial-layout2/img/Screenshot_2019-07-16%20EditorialLayout%232.jpg)
+![alt text](https://github.com/DEmanderbag/Restaurant-LandingPage/blob/master/food-site/images/Screenshot_2019-08-02%20Restaurant.jpg)
