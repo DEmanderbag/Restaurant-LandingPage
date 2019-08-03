@@ -1,5 +1,5 @@
 # Restaurant-LandingPage
-Landing Page for fictional website.
+A landing page for a restaurant website displaying three breakfast meals. Here I practiced using clip-path to set the custom borders for the image.
 
 Inspiration from a [dribble shot](https://dribbble.com/shots/3795464-Resturant/attachments/855976) made by [Zihad-Islam](https://dribbble.com/Zihad-Islam)
 
